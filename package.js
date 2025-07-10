@@ -1,6 +1,6 @@
 /* globals Package */
 Package.describe({
-    name: 'tkhtechnology:scss-modules-win32-x64',
+    name: 'rratajczak:scss-modules-win32-x64',
     version: '7.0.10.win32-x64',
     summary: 'CSS modules implementation. CSS for components!',
     git: 'https://github.com/tkhtechnology/meteor-css-modules',
@@ -32,7 +32,6 @@ Package.registerBuildPlugin({
         'recursive-readdir': '2.2.3',
         'string-template': '1.0.0',
         '@babel/runtime': '7.17.2',
-        'sass-embedded': '1.80.5'
     },
     sources: [
         'logger.js',
