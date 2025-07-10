@@ -3,8 +3,8 @@ import CssModulesBuildPlugin from './css-modules-build-plugin';
 import pluginOptionsWrapper from './options';
 import ImportPathHelpers from './helpers/import-path-helpers';
 
-// if architecture is different than darwin arm return
-if (process.platform !== 'darwin' || process.arch !== 'arm64') {
+// if architecture is different than darwin
+if (process.platform !== 'win32' || process.arch !== 'x64') {
     return;
 }
 

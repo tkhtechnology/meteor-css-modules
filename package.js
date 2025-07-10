@@ -1,9 +1,9 @@
 /* globals Package */
 Package.describe({
-    name: 'wolas:scss-modules-darwin-arm64',
-    version: '7.0.7',
+    name: 'tkhtechnology:scss-modules-win32-x64',
+    version: '7.0.10.win32-x64',
     summary: 'CSS modules implementation. CSS for components!',
-    git: 'https://github.com/wolasss/meteor-css-modules',
+    git: 'https://github.com/tkhtechnology/meteor-css-modules',
     documentation: 'README.md'
 });
 
@@ -27,8 +27,8 @@ Package.registerBuildPlugin({
         'postcss-modules-scope': '3.2.0',
         'postcss-modules-values': '4.0.0',
         'ramda': '0.30.1',
-        'sass-embedded': '1.58.3',
-        'sass-embedded-darwin-arm64': '1.80.7',
+        'sass-embedded': '1.89.2',
+        'sass-embedded-win32-x64': '1.89.2',
         'recursive-readdir': '2.2.3',
         'string-template': '1.0.0',
         '@babel/runtime': '7.17.2',

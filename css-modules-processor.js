@@ -9,7 +9,7 @@ import postcss from 'postcss';
 import Parser from 'css-modules-loader-core/lib/parser';
 import logger from './logger';
 
-if (process.platform !== 'darwin' || process.arch !== 'arm64') {
+if (process.platform !== 'win32' || process.arch !== 'x64') {
     return;
 }
 
