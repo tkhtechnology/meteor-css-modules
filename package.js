@@ -1,7 +1,7 @@
 /* globals Package */
 Package.describe({
     name: 'rratajczak:scss-modules-win32-x64',
-    version: '7.0.10.win32-x64',
+    version: '7.0.10-rc.win',
     summary: 'CSS modules implementation. CSS for components!',
     git: 'https://github.com/tkhtechnology/meteor-css-modules',
     documentation: 'README.md'

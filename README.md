@@ -16,7 +16,7 @@ Or, as stated on the main CSS modules page:
 Install using Meteor's package management system:
 
 ```bash
-meteor add wolasss:css-modules
+meteor add rratajczak:css-modules
 ```
 
 By default, this plugin will handle .css files as well as .m.css and .mss files (legacy). This can be adjusted in the [package options](https://github.com/nathantreid/meteor-css-modules/wiki/Package-Options).
@@ -87,7 +87,7 @@ Template.hello.helpers({
 });
 ```
 ### :local and :global
-All class names and animation names are scoped locally by default. Meaning that they are expanded to be prefixed for safe usage with other CSS-files. Sometimes you may need to reference some global class within the css-specifications. 
+All class names and animation names are scoped locally by default. Meaning that they are expanded to be prefixed for safe usage with other CSS-files. Sometimes you may need to reference some global class within the css-specifications.
 
 `:global` switches to global scope for the current selector resp. identifier. `:global(.xxx)` resp. `@keyframes :global(xxx)` declares the stuff in brackets in the global scope.
 
