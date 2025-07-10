@@ -27,12 +27,11 @@ Package.registerBuildPlugin({
         'postcss-modules-scope': '3.2.0',
         'postcss-modules-values': '4.0.0',
         'ramda': '0.30.1',
-        'sass-embedded': '1.58.3',
-        'sass-embedded-linux-x64': '1.80.7',
+        'sass-embedded': '1.89.2',
+        'sass-embedded-linux-x64': '1.89.2',
         'recursive-readdir': '2.2.3',
         'string-template': '1.0.0',
-        '@babel/runtime': '7.17.2',
-        'sass-embedded': '1.80.5'
+        '@babel/runtime': '7.17.2'
     },
     sources: [
         'logger.js',
