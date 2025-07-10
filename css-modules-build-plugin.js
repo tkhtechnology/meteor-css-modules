@@ -13,9 +13,6 @@ import getOutputPath from './get-output-path';
 import profile from './helpers/profile';
 import ImportPathHelpers from './helpers/import-path-helpers';
 
-if (process.platform !== 'win32' || process.arch !== 'x64') {
-    return;
-}
 let pluginOptions = pluginOptionsWrapper.options;
 const recursive = Meteor.wrapAsync(recursiveUnwrapped);
 
