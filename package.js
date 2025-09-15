@@ -1,7 +1,7 @@
 /* globals Package */
 Package.describe({
     name: 'cctech:scss-modules',
-    version: '7.0.10-rc.0',
+    version: '7.0.10',
     summary: 'CSS modules implementation. CSS for components!',
     git: 'https://github.com/tkhtechnology/meteor-css-modules',
     documentation: 'README.md'

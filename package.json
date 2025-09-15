@@ -1,6 +1,6 @@
 {
   "name": "meteor-css-modules",
-  "version": "0.0.1",
+  "version": "7.0.10",
   "devDependencies": {
     "babel-eslint": "10.1.0",
     "eslint": "8.35.0",
